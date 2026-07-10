@@ -60,7 +60,7 @@
       desc: "Design robusto com ótima refrigeração para longas sessões.",
       specs: ["Intel Core i7", "RTX 3060", "16GB RAM", "SSD 512GB"],
       price: "R$ 4.599",
-      img: "https://images.unsplash.com/photo-1600861195091-690c92531997?auto=format&fit=crop&w=700&q=80",
+      img: "https://images.unsplash.com/photo-1602080858428-57174f9431cf?auto=format&fit=crop&w=700&q=80",
     },
     {
       name: "Notebook Gamer Lenovo LOQ",
@@ -100,7 +100,7 @@
       desc: "Alta taxa de atualização para resposta rápida e fluida.",
       specs: ['24" Full HD', "165Hz", "1ms", "Painel IPS"],
       price: "R$ 899",
-      img: "https://images.unsplash.com/photo-1616782243292-158b6cf6f8f1?auto=format&fit=crop&w=700&q=80",
+      img: "https://images.unsplash.com/photo-1585792180666-f7347c490ee2?auto=format&fit=crop&w=700&q=80",
     },
     {
       name: "Kit Gamer",
@@ -108,7 +108,7 @@
       desc: "Teclado, mouse e headset para completar sua estação gamer.",
       specs: ["Teclado mecânico", "Mouse RGB", "Headset c/ mic"],
       price: "R$ 349",
-      img: "https://images.unsplash.com/photo-1624705013320-873b31043b70?auto=format&fit=crop&w=700&q=80",
+      img: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=700&q=80",
     },
   ];
 
