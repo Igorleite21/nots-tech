@@ -335,6 +335,7 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; letter-spac
 .grid--5 { grid-template-columns: repeat(5, 1fr); }
 .grid--4 { grid-template-columns: repeat(4, 1fr); }
 .grid--3 { grid-template-columns: repeat(3, 1fr); }
+.grid--2 { grid-template-columns: repeat(2, 1fr); max-width: 560px; margin: 0 auto; }
 .grid--products { grid-template-columns: repeat(3, 1fr); gap: 22px; }
 
 .card {
@@ -660,6 +661,7 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; letter-spac
   .menu-toggle { display: flex; }
   .hero { padding-top: 100px; }
   .grid--3 { grid-template-columns: 1fr; }
+  .grid--2 { grid-template-columns: 1fr; max-width: 360px; }
 }
 
 @media (max-width: 640px) {
