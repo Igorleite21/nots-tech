@@ -84,15 +84,6 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; letter-spac
   background-clip: text;
   color: transparent;
 }
-.eyebrow {
-  display: inline-block;
-  color: var(--blue-light);
-  font-weight: 600;
-  font-size: 0.85rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  margin-bottom: 12px;
-}
 .fine-print { color: var(--muted); font-size: 0.8rem; }
 .fine-print--center { text-align: center; margin-top: 28px; }
 
