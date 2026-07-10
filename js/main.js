@@ -237,7 +237,14 @@
   function initMobileMenu() {
     const toggle = document.getElementById("menuToggle");
     const menu = document.getElementById("mobileMenu");
+    const backBtn = document.getElementById("menuBack");
     if (!toggle || !menu) return;
+
+    const closeMenu = () => {
+      menu.classList.remove("open");
+      toggle.innerHTML = '<i data-lucide="menu"></i>';
+      if (window.lucide) window.lucide.createIcons();
+    };
 
     toggle.addEventListener("click", () => {
       const isOpen = menu.classList.toggle("open");
@@ -245,13 +252,9 @@
       if (window.lucide) window.lucide.createIcons();
     });
 
-    menu.querySelectorAll("a").forEach((link) =>
-      link.addEventListener("click", () => {
-        menu.classList.remove("open");
-        toggle.innerHTML = '<i data-lucide="menu"></i>';
-        if (window.lucide) window.lucide.createIcons();
-      })
-    );
+    if (backBtn) backBtn.addEventListener("click", closeMenu);
+
+    menu.querySelectorAll("a").forEach((link) => link.addEventListener("click", closeMenu));
   }
 
   // ------------------------------------------------------------------------
