@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NOTS TECH | Notebooks, PCs Gamer e Manutenção Especializada em São Paulo</title>
+<meta name="description" content="Venda de notebooks, computadores gamers e manutenção especializada com atendimento transparente, garantia e pós-venda diferenciado. Atendemos São Paulo e todo o Brasil.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%230B0B0B%22/><text x=%2250%25%22 y=%2262%25%22 font-size=%2258%22 text-anchor=%22middle%22 fill=%22%230066FF%22 font-family=%22Arial%22 font-weight=%22bold%22>N</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="icon-whatsapp" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+    <path fill="currentColor" d="M12 0C5.373 0 0 5.373 0 12c0 2.118.553 4.105 1.523 5.828L0 24l6.328-1.65A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.997 0-3.93-.523-5.63-1.516l-.4-.235-4.198 1.096 1.117-4.087-.26-.42A9.929 9.929 0 012 12c0-5.514 4.486-10 10-10s10 4.486 10 10-4.486 10-10 10z"/>
+  </symbol>
+  <symbol id="icon-instagram" viewBox="0 0 24 24">
+    <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="2"/>
+    <path fill="none" stroke="currentColor" stroke-width="2" d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  </symbol>
+</svg>
+
+<div class="bg-glow bg-glow-1"></div>
+<div class="bg-glow bg-glow-2"></div>
+
+<!-- HEADER -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#home" class="logo">
+      <span class="logo__mark">N</span>
+      <span class="logo__text">NOTS<strong>TECH</strong></span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="#home" class="nav__link">Home</a>
+      <a href="#produtos" class="nav__link">Produtos</a>
+      <a href="#servicos" class="nav__link">Serviços</a>
+      <a href="#como-comprar" class="nav__link">Como Comprar</a>
+      <a href="#avaliacoes" class="nav__link">Avaliações</a>
+      <a href="#contato" class="nav__link">Contato</a>
+    </nav>
+
+    <div class="header__actions">
+      <a href="#" class="btn btn--whatsapp js-wa" data-msg="Olá! Vim pelo site da NOTS TECH e gostaria de falar com um especialista." target="_blank" rel="noopener">
+        <svg class="icon-wa"><use href="#icon-whatsapp"></use></svg>
+        <span>WhatsApp</span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        <i data-lucide="menu"></i>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#home" class="mobile-menu__link">Home</a>
+  <a href="#produtos" class="mobile-menu__link">Produtos</a>
+  <a href="#servicos" class="mobile-menu__link">Serviços</a>
+  <a href="#como-comprar" class="mobile-menu__link">Como Comprar</a>
+  <a href="#avaliacoes" class="mobile-menu__link">Avaliações</a>
+  <a href="#contato" class="mobile-menu__link">Contato</a>
+  <a href="#" class="btn btn--whatsapp js-wa" data-msg="Olá! Vim pelo site da NOTS TECH e gostaria de falar com um especialista." target="_blank" rel="noopener">
+    <svg class="icon-wa"><use href="#icon-whatsapp"></use></svg><span>Falar no WhatsApp</span>
+  </a>
+</div>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="container hero__grid">
+      <div class="hero__content reveal">
+        <span class="badge glass">
+          <i data-lucide="shield-check"></i> Empresa séria &amp; especializada em São Paulo
+        </span>
+        <h1 class="hero__title">Tecnologia com confiança. <span class="text-gradient">Performance sem preocupações.</span></h1>
+        <p class="hero__subtitle">Venda de notebooks, computadores gamers e manutenção especializada com atendimento transparente, garantia e pós-venda diferenciado.</p>
+        <div class="hero__actions">
+          <a href="#" class="btn btn--primary js-wa" data-msg="Olá! Gostaria de solicitar um orçamento de equipamento." target="_blank" rel="noopener">
+            <svg class="icon-wa"><use href="#icon-whatsapp"></use></svg> Solicitar orçamento
+          </a>
+          <a href="#produtos" class="btn btn--ghost">
+            Ver produtos <i data-lucide="arrow-right"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__media reveal">
+        <div class="hero__media-glow"></div>
+        <div class="hero__image-card glass">
+          <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7?auto=format&fit=crop&w=900&q=80" alt="Notebook gamer moderno com iluminação RGB" loading="eager">
+        </div>
+        <div class="hero__float-card glass hero__float-card--top">
+          <i data-lucide="shield-check"></i>
+          <div>
+            <strong>Garantia</strong>
+            <span>Equipamentos testados</span>
+          </div>
+        </div>
+        <div class="hero__float-card glass hero__float-card--bottom">
+          <i data-lucide="truck"></i>
+          <div>
+            <strong>Envio para o Brasil todo</strong>
+            <span>Rastreamento incluso</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__strip reveal">
+      <div class="container hero__strip-inner">
+        <span><i data-lucide="check-circle"></i> Empresa em São Paulo</span>
+        <span><i data-lucide="check-circle"></i> Atendimento Personalizado</span>
+        <span><i data-lucide="check-circle"></i> Garantia</span>
+        <span><i data-lucide="check-circle"></i> Pós-venda diferenciado</span>
+        <span><i data-lucide="check-circle"></i> Compra 100% Segura</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAIS -->
+  <section class="section" id="diferenciais">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">Por que a NOTS TECH</span>
+        <h2>Diferenciais que <span class="text-gradient">geram confiança</span></h2>
+      </div>
+
+      <div class="grid grid--5">
+        <article class="card card--feature glass reveal">
+          <div class="card__icon"><i data-lucide="headset"></i></div>
+          <h3>Atendimento especializado</h3>
+          <p>Nossa equipe auxilia você antes, durante e após a compra.</p>
+        </article>
+        <article class="card card--feature glass reveal">
+          <div class="card__icon"><i data-lucide="shield-check"></i></div>
+          <h3>Compra Segura</h3>
+          <p>Você escolhe onde deseja comprar. Podemos anunciar o produto em plataformas reconhecidas para sua total segurança.</p>
+        </article>
+        <article class="card card--feature glass reveal">
+          <div class="card__icon"><i data-lucide="badge-check"></i></div>
+          <h3>Garantia</h3>
+          <p>Todos os equipamentos passam por testes antes da entrega.</p>
+        </article>
+        <article class="card card--feature glass reveal">
+          <div class="card__icon"><i data-lucide="heart-handshake"></i></div>
+          <h3>Pós-venda</h3>
+          <p>Nosso relacionamento continua mesmo após a entrega. Esse é um dos nossos maiores diferenciais.</p>
+        </article>
+        <article class="card card--feature glass reveal">
+          <div class="card__icon"><i data-lucide="truck"></i></div>
+          <h3>Entrega</h3>
+          <p>Enviamos para todo o Brasil.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUTOS -->
+  <section class="section section--alt" id="produtos">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">Catálogo</span>
+        <h2>Notebooks, PCs Gamer &amp; <span class="text-gradient">Periféricos</span></h2>
+        <p class="section__desc">Equipamentos testados e prontos para uso. Preços ilustrativos — valores confirmados no atendimento.</p>
+        <span class="fun-note glass reveal">
+          <svg class="icon-wa"><use href="#icon-whatsapp"></use></svg>
+          Chame sem compromisso — se não virar cliente, viramos amigos!
+        </span>
+      </div>
+
+      <div class="grid grid--products" id="productsGrid"></div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section class="section" id="servicos">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">Serviços</span>
+        <h2>Manutenção e <span class="text-gradient">montagem especializada</span></h2>
+      </div>
+
+      <div class="grid grid--3">
+        <article class="card card--service glass reveal">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?auto=format&fit=crop&w=800&q=80" alt="Técnico realizando manutenção em notebook" loading="lazy">
+          </div>
+          <div class="card__body">
+            <div class="card__icon"><i data-lucide="laptop"></i></div>
+            <h3>Manutenção de Notebooks</h3>
+            <ul class="check-list">
+              <li><i data-lucide="check"></i> Limpeza preventiva</li>
+              <li><i data-lucide="check"></i> Troca de SSD</li>
+              <li><i data-lucide="check"></i> Troca de HD</li>
+              <li><i data-lucide="check"></i> Upgrade de Memória RAM</li>
+              <li><i data-lucide="check"></i> Instalação de Windows</li>
+              <li><i data-lucide="check"></i> Backup de arquivos</li>
+              <li><i data-lucide="check"></i> Configuração completa</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card card--service glass reveal">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80" alt="Manutenção de computador desktop" loading="lazy">
+          </div>
+          <div class="card__body">
+            <div class="card__icon"><i data-lucide="monitor-cog"></i></div>
+            <h3>Manutenção de Computadores</h3>
+            <ul class="check-list">
+              <li><i data-lucide="check"></i> Upgrade</li>
+              <li><i data-lucide="check"></i> Troca de peças</li>
+              <li><i data-lucide="check"></i> Formatação</li>
+              <li><i data-lucide="check"></i> Instalação de programas</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card card--service glass reveal">
+          <div class="card__media">
+            <img src="https://images.unsplash.com/photo-1587831990711-23ca6441447b?auto=format&fit=crop&w=800&q=80" alt="Montagem de computador gamer com iluminação RGB" loading="lazy">
+          </div>
+          <div class="card__body">
+            <div class="card__icon"><i data-lucide="cpu"></i></div>
+            <h3>Montagem de Computadores Gamer</h3>
+            <ul class="check-list">
+              <li><i data-lucide="check"></i> Projeto personalizado</li>
+              <li><i data-lucide="check"></i> Montagem profissional</li>
+              <li><i data-lucide="check"></i> Organização de cabos</li>
+              <li><i data-lucide="check"></i> Teste de estabilidade</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+
+      <div class="cta-inline glass reveal">
+        <p>Precisa de manutenção ou quer montar seu setup gamer ideal?</p>
+        <a href="#" class="btn btn--primary js-wa" data-msg="Olá! Gostaria de solicitar um orçamento de serviço de manutenção/montagem." target="_blank" rel="noopener">
+          <svg class="icon-wa"><use href="#icon-whatsapp"></use></svg> Solicitar orçamento
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPRA 100% SEGURA -->
+  <section class="section section--dark" id="compra-segura">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">Confiança em primeiro lugar</span>
+        <h2>Você escolhe <span class="text-gradient">como deseja comprar</span></h2>
+        <p class="section__desc">Na NOTS TECH acreditamos que confiança é construída com transparência. Por isso oferecemos diferentes formas de compra para que você escolha a que mais lhe transmite segurança.</p>
+      </div>
+
+      <div class="grid grid--4">
+        <article class="card card--secure glass reveal">
+          <div class="card__icon"><i data-lucide="handshake"></i></div>
+          <h3>Compra Direta</h3>
+          <p>Atendimento personalizado, do primeiro contato ao pós-venda.</p>
+        </article>
+        <article class="card card--secure glass reveal">
+          <div class="card__icon"><i data-lucide="shopping-bag"></i></div>
+          <h3>Mercado Livre</h3>
+          <p>Caso prefira, anunciamos seu produto no Mercado Livre para que você utilize toda a proteção da plataforma.</p>
+        </article>
+        <article class="card card--secure glass reveal">
+          <div class="card__icon"><i data-lucide="tag"></i></div>
+          <h3>OLX</h3>
+          <p>Também podemos realizar a negociação pela OLX.</p>
+        </article>
+        <article class="card card--secure glass reveal">
+          <div class="card__icon"><i data-lucide="map-pin"></i></div>
+          <h3>Retirada Presencial</h3>
+          <p>Se estiver em São Paulo, você também pode retirar seu equipamento pessoalmente mediante agendamento.</p>
+        </article>
+      </div>
+
+      <div class="banner glass reveal">
+        <i data-lucide="sparkles"></i>
+        <p>Nossa prioridade não é apenas vender. <strong>É fazer com que você compre com total tranquilidade.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ENTREGA COM PAGAMENTO NA ENTREGA -->
+  <section class="section section--delivery" id="entrega">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">Ainda mais segurança</span>
+        <h2>Receba seu equipamento <span class="text-gradient">com total segurança</span></h2>
+        <p class="section__desc">Se você está em São Paulo, oferecemos ainda mais tranquilidade na sua compra.</p>
+      </div>
+
+      <div class="grid grid--4">
+        <article class="card card--secure glass reveal">
+          <div class="card__icon"><i data-lucide="truck"></i></div>
+          <h3>Entrega Própria</h3>
+          <p>Realizamos entregas diretamente ao cliente em diversas regiões de São Paulo.</p>
+        </article>
+        <article class="card card--secure glass reveal">
+          <div class="card__icon"><i data-lucide="map-pin"></i></div>
+          <h3>Atendimento em São Paulo</h3>
+          <p>Atendemos principalmente:</p>
+          <ul class="check-list">
+            <li><i data-lucide="check"></i> Zona Norte</li>
+            <li><i data-lucide="check"></i> Zona Sul</li>
+            <li><i data-lucide="check"></i> Zona Oeste</li>
+          </ul>
+          <span class="fine-print">(consulte disponibilidade para sua região)</span>
+        </article>
+        <article class="card card--secure glass reveal">
+          <div class="card__icon"><i data-lucide="credit-card"></i></div>
+          <h3>Pagamento na Entrega</h3>
+          <p>Para clientes atendidos pela nossa entrega própria, o pagamento pode ser realizado no momento da entrega. Assim, você recebe o equipamento, confere tudo pessoalmente e realiza o pagamento com total tranquilidade.</p>
+        </article>
+        <article class="card card--secure glass reveal">
+          <div class="card__icon"><i data-lucide="handshake"></i></div>
+          <h3>Transparência em Primeiro Lugar</h3>
+          <p>Nosso objetivo é proporcionar uma experiência segura do início ao fim. Queremos que você tenha confiança antes, durante e após a compra.</p>
+        </article>
+      </div>
+
+      <div class="banner banner--highlight glass reveal">
+        <p>"Na NOTS TECH você compra do jeito que se sentir mais seguro."</p>
+        <div class="banner__tags">
+          <span><i data-lucide="check"></i> Compra direta</span>
+          <span><i data-lucide="check"></i> Mercado Livre</span>
+          <span><i data-lucide="check"></i> OLX</span>
+          <span><i data-lucide="check"></i> Entrega própria com pagamento na entrega</span>
+        </div>
+      </div>
+
+      <p class="fine-print fine-print--center reveal">*A entrega com pagamento na entrega está disponível para determinadas regiões da cidade de São Paulo, mediante consulta de disponibilidade.</p>
+    </div>
+  </section>
+
+  <!-- PROCESSO / COMO COMPRAR -->
+  <section class="section" id="como-comprar">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">Simples e transparente</span>
+        <h2>Como funciona a <span class="text-gradient">sua compra</span></h2>
+      </div>
+
+      <div class="timeline" id="timeline">
+        <div class="timeline__line"></div>
+        <div class="timeline__item reveal">
+          <div class="timeline__icon"><i data-lucide="mouse-pointer-click"></i></div>
+          <div class="timeline__content glass">
+            <span class="timeline__step">01</span>
+            <h3>Escolha seu equipamento</h3>
+          </div>
+        </div>
+        <div class="timeline__item reveal">
+          <div class="timeline__icon"><svg class="icon-wa"><use href="#icon-whatsapp"></use></svg></div>
+          <div class="timeline__content glass">
+            <span class="timeline__step">02</span>
+            <h3>Conversamos pelo WhatsApp</h3>
+          </div>
+        </div>
+        <div class="timeline__item reveal">
+          <div class="timeline__icon"><i data-lucide="video"></i></div>
+          <div class="timeline__content glass">
+            <span class="timeline__step">03</span>
+            <h3>Enviamos fotos e vídeos reais</h3>
+          </div>
+        </div>
+        <div class="timeline__item reveal">
+          <div class="timeline__icon"><i data-lucide="list-checks"></i></div>
+          <div class="timeline__content glass">
+            <span class="timeline__step">04</span>
+            <h3>Escolha a forma de compra</h3>
+          </div>
+        </div>
+        <div class="timeline__item reveal">
+          <div class="timeline__icon"><i data-lucide="lock"></i></div>
+          <div class="timeline__content glass">
+            <span class="timeline__step">05</span>
+            <h3>Pagamento seguro</h3>
+          </div>
+        </div>
+        <div class="timeline__item reveal">
+          <div class="timeline__icon"><i data-lucide="package-check"></i></div>
+          <div class="timeline__content glass">
+            <span class="timeline__step">06</span>
+            <h3>Envio ou retirada</h3>
+          </div>
+        </div>
+        <div class="timeline__item reveal">
+          <div class="timeline__icon"><i data-lucide="heart-handshake"></i></div>
+          <div class="timeline__content glass">
+            <span class="timeline__step">07</span>
+            <h3>Pós-venda</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section class="section section--alt" id="avaliacoes">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">Quem confiou, aprovou</span>
+        <h2>O que dizem <span class="text-gradient">nossos clientes</span></h2>
+      </div>
+
+      <div class="carousel reveal">
+        <button class="carousel__btn carousel__btn--prev" id="prevTestimonial" aria-label="Depoimento anterior"><i data-lucide="chevron-left"></i></button>
+        <div class="carousel__viewport">
+          <div class="carousel__track" id="testimonialTrack"></div>
+        </div>
+        <button class="carousel__btn carousel__btn--next" id="nextTestimonial" aria-label="Próximo depoimento"><i data-lucide="chevron-right"></i></button>
+      </div>
+      <div class="carousel__dots" id="testimonialDots"></div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container container--narrow">
+      <div class="section__head reveal">
+        <span class="eyebrow">Dúvidas</span>
+        <h2>Perguntas <span class="text-gradient">frequentes</span></h2>
+      </div>
+
+      <div class="faq" id="faq-list">
+        <div class="faq__item glass reveal">
+          <button class="faq__question">
+            O notebook possui garantia?
+            <i data-lucide="chevron-down"></i>
+          </button>
+          <div class="faq__answer">
+            <p>Todos os equipamentos passam por testes e possuem garantia conforme informado na negociação.</p>
+          </div>
+        </div>
+        <div class="faq__item glass reveal">
+          <button class="faq__question">
+            Posso comprar pelo Mercado Livre?
+            <i data-lucide="chevron-down"></i>
+          </button>
+          <div class="faq__answer">
+            <p>Sim. Caso deseje, criamos um anúncio exclusivo para você.</p>
+          </div>
+        </div>
+        <div class="faq__item glass reveal">
+          <button class="faq__question">
+            Posso retirar em São Paulo?
+            <i data-lucide="chevron-down"></i>
+          </button>
+          <div class="faq__answer">
+            <p>Sim. Mediante agendamento.</p>
+          </div>
+        </div>
+        <div class="faq__item glass reveal">
+          <button class="faq__question">
+            Vocês enviam para todo o Brasil?
+            <i data-lucide="chevron-down"></i>
+          </button>
+          <div class="faq__answer">
+            <p>Sim.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="cta-final">
+    <div class="container cta-final__inner reveal">
+      <h2>Seu próximo notebook <span class="text-gradient">está aqui.</span></h2>
+      <p>Fale agora com um especialista. Receba atendimento personalizado.</p>
+      <a href="#" class="btn btn--primary btn--lg js-wa" data-msg="Olá! Quero falar com um especialista da NOTS TECH." target="_blank" rel="noopener">
+        <svg class="icon-wa"><use href="#icon-whatsapp"></use></svg> Falar no WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="section" id="contato">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">Fale com a gente</span>
+        <h2>Estamos <span class="text-gradient">à disposição</span></h2>
+      </div>
+
+      <div class="grid grid--3">
+        <a href="#" class="card card--contact glass reveal js-wa" data-msg="Olá! Gostaria de falar com a NOTS TECH." target="_blank" rel="noopener">
+          <div class="card__icon"><svg class="icon-wa"><use href="#icon-whatsapp"></use></svg></div>
+          <h3>WhatsApp</h3>
+          <p>Atendimento rápido e direto</p>
+        </a>
+        <a href="https://instagram.com" target="_blank" rel="noopener" class="card card--contact glass reveal">
+          <div class="card__icon"><svg class="icon-wa"><use href="#icon-instagram"></use></svg></div>
+          <h3>Instagram</h3>
+          <p>@notstech</p>
+        </a>
+        <a href="mailto:contato@notstech.com.br" class="card card--contact glass reveal">
+          <div class="card__icon"><i data-lucide="mail"></i></div>
+          <h3>E-mail</h3>
+          <p>contato@notstech.com.br</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <div class="logo">
+        <span class="logo__mark">N</span>
+        <span class="logo__text">NOTS<strong>TECH</strong></span>
+      </div>
+      <p>Tecnologia com confiança. Performance sem preocupações.</p>
+      <div class="footer__social">
+        <a href="#" class="js-wa" data-msg="Olá! Vim pelo site da NOTS TECH." target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="icon-wa"><use href="#icon-whatsapp"></use></svg></a>
+        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><svg class="icon-wa"><use href="#icon-instagram"></use></svg></a>
+        <a href="mailto:contato@notstech.com.br" aria-label="E-mail"><i data-lucide="mail"></i></a>
+      </div>
+    </div>
+
+    <div class="footer__col">
+      <h4>Empresa</h4>
+      <a href="#produtos">Venda de Notebooks</a>
+      <a href="#produtos">Computadores Gamer</a>
+      <a href="#servicos">Manutenção Especializada</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Localização</h4>
+      <p><i data-lucide="map-pin"></i> São Paulo - SP</p>
+      <p class="fine-print">Atendemos todo o Brasil</p>
+    </div>
+
+    <div class="footer__col footer__map">
+      <h4>Área de atendimento</h4>
+      <div class="footer__map-frame glass">
+        <iframe
+          src="https://www.google.com/maps?q=São Paulo, SP&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Mapa - São Paulo, SP">
+        </iframe>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <div class="container footer__bottom-inner">
+      <span>© <span id="year"></span> NOTS TECH. Todos os direitos reservados.</span>
+      <span>Feito com <i data-lucide="heart"></i> em São Paulo</span>
+    </div>
+  </div>
+</footer>
+
+<!-- FLOATING WHATSAPP -->
+<a href="#" class="fab-whatsapp js-wa" data-msg="Olá! Gostaria de falar com um especialista da NOTS TECH." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg class="icon-wa"><use href="#icon-whatsapp"></use></svg>
+</a>
+
+<script src="https://unpkg.com/lucide@latest"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
