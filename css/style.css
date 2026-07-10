@@ -121,14 +121,6 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; letter-spac
 }
 .btn--primary:hover { transform: translateY(-3px); box-shadow: 0 14px 34px var(--glow-blue); }
 
-.btn--ghost {
-  background: var(--glass-bg);
-  border: 1px solid var(--glass-border);
-  color: var(--white);
-  backdrop-filter: blur(12px);
-}
-.btn--ghost:hover { background: var(--glass-bg-strong); transform: translateY(-3px); }
-
 .btn--whatsapp {
   background: rgba(37, 211, 102, 0.12);
   border: 1px solid rgba(37, 211, 102, 0.4);
