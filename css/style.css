@@ -270,8 +270,6 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; letter-spac
   max-width: 520px;
   margin: 0 auto 26px;
 }
-.hero__actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 16px; }
-
 .hero__strip { margin-top: 50px; border-top: 1px solid var(--glass-border); background: rgba(255,255,255,0.02); }
 .hero__strip-inner {
   display: flex;
