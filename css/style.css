@@ -268,16 +268,16 @@ h1, h2, h3, h4 { font-family: var(--font-heading); font-weight: 700; letter-spac
   color: var(--muted);
   font-size: 1.08rem;
   max-width: 520px;
-  margin: 0 auto 26px;
+  margin: 0 auto;
 }
-.hero__strip { margin-top: 50px; border-top: 1px solid var(--glass-border); background: rgba(255,255,255,0.02); }
+.hero__strip { margin-top: 24px; border-top: 1px solid var(--glass-border); background: rgba(255,255,255,0.02); }
 .hero__strip-inner {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px 36px;
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
 .hero__strip-inner span { display: flex; align-items: center; gap: 8px; font-size: 0.88rem; color: var(--muted); font-weight: 500; }
 .hero__strip-inner i { width: 17px; height: 17px; color: var(--blue-light); }
